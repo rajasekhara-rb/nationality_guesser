@@ -38,6 +38,8 @@ async function nationalize() {
             let data = await dataObj.json()
             // console.log(data);
             displayData(data);
+
+            input.value = "";
             // return data;
         } else {
             alert("Input cannot be blank");
